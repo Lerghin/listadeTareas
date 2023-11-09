@@ -12,8 +12,10 @@ export const useTodo = () => {
 	const [todos, dispatch] = useReducer(
 		todoReducer,
 		initialState,
-		init
+		init,
+       
 	);
+
 
     const todosCount = todos.length
     const pendingTodosCount = todos.filter(todo => !todo.done).length
@@ -51,7 +53,7 @@ export const useTodo = () => {
 		dispatch(action);
 	};
 
-	const handleUpdateTodo = (id, description) => {
+    const handleUpdateTodo = (id, description) => {
 		const action = {
 			type: 'Update Todo',
 			payload: {
