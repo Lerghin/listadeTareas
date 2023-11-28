@@ -69,7 +69,7 @@ const services = [
       name: "Corte de Verano",
       description: "Un corte fresco y ligero perfecto para los meses de verano. Ayuda a mantener a tu mascota fresca y cómoda en climas cálidos.",
       price: 55.0,
-      image: "../../public/image/calvo.jpeg"
+      image: ".../../public/image/calvo.jpeg"
     }
   ];
   
