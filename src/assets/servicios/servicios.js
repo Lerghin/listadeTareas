@@ -48,7 +48,7 @@ const services = [
       name: "Baño de Aromaterapia",
       description: "Un baño relajante con productos de aromaterapia especialmente seleccionados para calmar y rejuvenecer a tu mascota.",
       price: 40.0,
-      image: "../../public/image/aroma.jpeg"
+      image: "https://github.com/Lerghin/listadeTareas/blob/principal/public/image/aroma.jpeg"
     },
     {
       id: 8,
@@ -62,14 +62,14 @@ const services = [
       name: "Baño de Espuma",
       description: "Un baño lujoso con espuma suave y acondicionador para un pelaje suave y brillante. Tu mascota se sentirá como en un spa de lujo.",
       price: 35.0,
-      image: "../.../public/image/espuma.jpeg"
+      image: "../../public/image/espuma.jpeg"
     },
     {
       id: 10,
       name: "Corte de Verano",
       description: "Un corte fresco y ligero perfecto para los meses de verano. Ayuda a mantener a tu mascota fresca y cómoda en climas cálidos.",
       price: 55.0,
-      image: "../.../public/image/calvo.jpeg"
+      image: "../../public/image/calvo.jpeg"
     }
   ];
   
