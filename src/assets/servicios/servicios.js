@@ -48,7 +48,7 @@ const services = [
       name: "Baño de Aromaterapia",
       description: "Un baño relajante con productos de aromaterapia especialmente seleccionados para calmar y rejuvenecer a tu mascota.",
       price: 40.0,
-      image: "https://github.com/Lerghin/listadeTareas/blob/principal/public/image/aroma.jpeg"
+      image: "https://github.com/Lerghin/listadeTareas/blob/gh-pages/image/aroma.jpeg"
     },
     {
       id: 8,
