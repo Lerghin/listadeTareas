@@ -30,7 +30,7 @@ import { useForm } from '../Hooks/useForm.js';
 				name='description'
 				value={description}
 				onChange={onInputChange}
-				placeholder='¿Qué hay que hacer?'
+				placeholder='¿Que servicio debemos dar y el nombre de tu mascota?'
 			/>
 
 			<button className='btn-add' type='submit'>

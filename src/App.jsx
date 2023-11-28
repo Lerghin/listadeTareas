@@ -1,44 +1,27 @@
 import "./App.css";
-import TodoAdd from "./Components/TodoAdd";
-import TodoList from "./Components/TodoList";
-import { useTodo } from "./Hooks/useTodo";
+import Footer from "./Components/Footer.jsx";
+import Header from "./Components/Header.jsx";
+import TarjetaServicio from "./Components/TarjetaServicio.jsx";
 
+import Todo from "./Page/Todo.jsx"
 function App() {
-  const  { 
-    todos, 
-    todosCount,
-    pendingTodosCount,
-    handleNewTodo,
-    handleDeleteTodo,
-    handleCompleteTodo,
-    handleUpdateTodo}= useTodo()
+
   return (
-   
-    <>
-    <div className='card-to-do'>
-      <h1>Lista de tareas</h1>
-      <div className='counter-todos'>
-        <h3>
-          N° Tareas: <span>{todosCount}</span>
-        </h3>
-        <h3>
-          Pendientes: <span>{pendingTodosCount}</span>
-        </h3>
-      </div>
+    
+   <div className="app-layout ">
+    <header className="app-header"> <Header/></header>
+    <section>
+        <TarjetaServicio/>
+      </section>
+    <main className="app-main">
+      <Todo/>
+      </main>
+      
+    <footer className="app-footer"><Footer/></footer>
+   </ div>
+  
 
-      <div className='add-todo'>
-        <h3>Agregar Tarea</h3>
-        <TodoAdd handleNewTodo={handleNewTodo} />
-      </div>
-
-      <TodoList
-        todos={todos}
-        handleUpdateTodo={handleUpdateTodo}
-        handleDeleteTodo={handleDeleteTodo}
-        handleCompleteTodo={handleCompleteTodo}
-      />
-    </div>
-  </>
+  
 );
 }
 

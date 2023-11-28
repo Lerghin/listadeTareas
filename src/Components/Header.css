@@ -1,0 +1,17 @@
+.inicio{
+display: flex;
+justify-content: center;
+}
+.inicio>img{
+padding-top: 1rem;
+padding-bottom: 1rem;
+border-radius: 50px;
+height: 7rem;
+margin-left: 1rem;
+
+gap:2;
+}
+
+h1{
+    padding-top: 2rem;
+}
